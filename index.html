@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <span class="passhere">Your Password </span>
+    <div class="lp">
+    <label for="nolen">Password Length</label>
+    <input class="nolen" type="number" min="8" max="15" value="8" >
+    </div>
+    <br>
+    <div class="lp">
+    <label for="uppercase">UpperCase</label>
+    <input class="up check" type="checkbox">
+    </div>
+    <br>
+    <div class="lp">
+    <label for="lowercase">LowerCase</label>
+    <input class="low check" type="checkbox">
+    </div>
+    <br>
+    <div class="lp">
+    <label for="number">Numbers</label>
+    <input class="no check" type="checkbox">
+    </div>
+    <br>
+    <div class="lp">
+    <label for="symbol">Symbols</label>
+    <input class="sy check" type="checkbox">
+    </div>
+    <br>
+    <div class="lp">
+    <button>Generate Password</button>
+    </div>    
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
